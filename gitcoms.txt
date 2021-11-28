@@ -1,0 +1,9 @@
+#Create ssh key in terminal
+ssh-keygen -t rsa -b 4096 -C "zandstrasam@gmail.com"
+
+Leave save file blank/ press enter for default folder.
+
+Enter password
+
+#Add ssh key to computer
+eval "(ssh-agent -s)" or start-ssh-agent.cmd
