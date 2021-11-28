@@ -1,3 +1,4 @@
+#Each computer will have an ssh key
 #Create ssh key in terminal
 ssh-keygen -t rsa -b 4096 -C "zandstrasam@gmail.com"
 
@@ -7,3 +8,10 @@ Enter password
 
 #Add ssh key to computer
 eval "(ssh-agent -s)" or start-ssh-agent.cmd
+
+Add new ssh key in github.
+Copy paste rsa key in the box
+
+mac - pbcopy < ~/.ssh/id_rsa.pub
+windows - clip < ~/.ssh/id_rsa.pub
+linux - install xclip.
