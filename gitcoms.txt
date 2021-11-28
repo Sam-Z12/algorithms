@@ -7,7 +7,7 @@ Leave save file blank/ press enter for default folder.
 Enter password
 
 #Add ssh key to computer
-eval "(ssh-agent -s)" or start-ssh-agent.cmd
+eval "(ssh-agent -s)" and ssh-add ~/.ssh/id_rsa or start-ssh-agent.cmd
 
 Add new ssh key in github.
 Copy paste rsa key in the box
