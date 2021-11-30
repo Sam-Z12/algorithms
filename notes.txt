@@ -1,0 +1,9 @@
+algoritms can run in 
+constant: 1
+logarithm: log n 
+liner: n
+n log n: nlog(n)
+quadratic: n^2
+cubic: n^3
+exponential: a^n
+
