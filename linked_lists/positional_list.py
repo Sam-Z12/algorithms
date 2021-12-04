@@ -28,6 +28,7 @@ class _DoublyLinkedBase:
         successor._prev = newest
         self._size += 1
         return newest
+        
     def _delete_node(self, node):
         predecessor = node._prev
         successor = node._next
