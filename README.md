@@ -1,2 +1,2 @@
 # algorithms
-practicing algorithms 
+practicing algorithms/ data structures
